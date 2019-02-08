@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Data analysis powered by SQLAlchemy ORM queries, Pandas, and Matplotlib
 
 ![surfs-up.jpeg](Images/surfs-up.jpeg)
