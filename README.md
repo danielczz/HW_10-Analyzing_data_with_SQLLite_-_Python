@@ -1,7 +1,5 @@
 <<<<<<< HEAD
-# Data analysis powered by SQLAlchemy ORM queries, Pandas, and Matplotlib.
-## Authors 
-* Daniel Cespedes - [LinkedIn](https://www.linkedin.com/in/selinzorob/) - [GitHub](https://github.com/danielczz)
+# Data analysis powered by SQLAlchemy ORM queries, Pandas, and Matplotlib
 
 ![surfs-up.jpeg](Images/surfs-up.jpeg)
 
