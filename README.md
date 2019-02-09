@@ -16,7 +16,6 @@ At the same time this is an analysis for an assigment related to Data Analytics 
 - Please review main SQL script for programming commands: 
 [main Script](https://github.com/danielczz/HW_10-Analyzing_data_with_SQLLite_-_Python/blob/master/main.ipynb).
 
-
 #### **1. Data gathering**
 - Data we are currently using is: 
 
@@ -34,8 +33,10 @@ At the same time this is an analysis for an assigment related to Data Analytics 
 ## Step 1 - Climate Analysis and Exploration
 
 ### Precipitation Analysis
+![prep_12_month.png](Images/prep_12_month.png)
 
 ### Station Analysis
+![Images/temp_12_month.png](Images/temp_12_month.png)
 
 ### Temperature Analysis (Optional)
 
@@ -44,10 +45,8 @@ At the same time this is an analysis for an assigment related to Data Analytics 
 
 
 ## Step 2 - Climate App
-
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
 
-* Use FLASK to create your routes.
 
 ### Routes
 

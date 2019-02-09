@@ -181,6 +181,7 @@ dmypy.json
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.ipynb_checkpoints
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
