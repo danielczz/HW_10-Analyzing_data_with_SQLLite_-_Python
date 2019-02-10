@@ -1,6 +1,6 @@
 # Data analysis powered by:     
-## SQLAlchemy ORM queries, Pandas, and Matplotlib
-# 
+## SQLAlchemy ORM queries, Pandas, and Matplotlib.
+
 ![surfs-up.jpeg](Images/surfs-up.jpeg)
 
 ## Authors 
@@ -15,12 +15,12 @@ We will be able to act quick on data. Using data analysis we are going to load d
 At the same time this is an analysis for an assigment related to Data Analytics Bootcamp. 
 
 - Please review main SQL script for programming commands: 
-[main Script](https://github.com/danielczz/HW_10-Analyzing_data_with_SQLLite_-_Python/blob/master/main.ipynb).
+[main Script](https://github.com/danielczz/HW_10-Analyzing_data_with_SQLLite_-_Python/blob/master/main.ipynb)
 
 #### **1. Data gathering**
 - Data we are currently using is: 
 
-    * 1 sqllite DataBase 
+    * 1 sqllite Database 
     * 2 csv files
     
 #### **2. Data cleaning**
@@ -34,24 +34,45 @@ At the same time this is an analysis for an assigment related to Data Analytics 
 ## Step 1 - Climate Analysis and Exploration
 
 ### Precipitation Analysis
+
 ![prep_12_month.png](Images/prep_12_month.png)
 
 ### Station Analysis
 ![Images/temp_12_month.png](Images/temp_12_month.png)
 
-### Temperature Analysis (Optional)
+### Temperature Analysis
+
+![trip_avg_temp.png](Images/trip_avg_temp.png)
 
 
-### Other Recommended Analysis (Optional)
+### Other Recommended Analysis
 
+
+  * Calculate the rainfall per weather station using the previous year's matching dates.
 
 ## Step 2 - Climate App
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
-
+Flask API based on the queries that you have just developed:
 
 ### Routes
 
+* `/`
+
+  * Home page.
+
+  * List of all routes that are available.
+
 * `/api/v1.0/precipitation`
+
+  * Return a JSON list of `date` as the key and `prcp` as the value.
+
 * `/api/v1.0/stations`
+
+  * Return a JSON list of `stations` from the dataset.
+
 * `/api/v1.0/tobs`
-* `/api/v1.0/<start>` and `/api/v1.0/<start>/<end>`
+  * Return a JSON list of Temperature Observations (tobs) for the previous year.
+
+* `/api/v1.0/START_DATE` and `/api/v1.0/<START_DATE>/<END_DATE>`
+
+  * Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start or start-end range.
+
